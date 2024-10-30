@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #000000;
+    transition: background-color 1s;
+}
+
+body:hover {
+    background-color: #000000;
+}
+
+header {
+    background-color: #f18202;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px #f18202;
+    transition: background-color 0.5s;
+    
+}
+
+header:hover {
+    background-color: #f18202;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f18202;
+    padding: 10px;
+    box-shadow: 0 4px 8px #f18202;
+    transition: background-color 0.5s;
+}
+
+.nav-item {
+    color: #f18202;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.nav-item:hover {
+    background-color: #000000;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.Img{
+display: flex;
+  
+border: 8px double #000000;
+}
+
+
+.card {
+    background-color: #f18202;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 40%;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.Doza{
+    color: #f18202;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #372101;
+    margin: 20px;
+    padding: 20px;
+    width: 60%;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #f18202;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.5s;
+}
+
+footer:hover {
+    background-color: #f18202;
+}
